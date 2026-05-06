@@ -31,7 +31,7 @@ If the create flow offers **autodetect from app spec** or **import spec**, point
 
 ### Option C — Dockerfile (autodetect)
 
-A root `Dockerfile` copies `public/` into nginx so the wizard can detect a **Docker**/`Dockerfile` component. That runs as a small container instead of the “Static Site” resource type; use Option A if you specifically want a static-site component.
+A root `Dockerfile` copies `public/` into nginx (`nginx-default.conf` listens on **8080**, which matches App Platform health checks). That runs as a small container instead of the “Static Site” resource type; use Option A if you specifically want a static-site component.
 
 You can also deploy with `doctl` using `.do/app.yaml` after wiring your Git remote and any registry settings DigitalOcean requires.
 
