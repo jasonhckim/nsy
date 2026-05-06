@@ -12,20 +12,28 @@ Static one-page website for NSY LLC.
 
 ## DigitalOcean App Platform Deployment
 
-Use DigitalOcean App Platform as a static site.
+This project is static HTML/CSS/JS under `public/`. There is no `package.json` at the repo root, so the App Platform wizard often shows **“No components detected”** until you either add a component manually, use the app spec, or rely on the root `Dockerfile` (nginx serving `public/`).
 
-1. Push this folder to a GitHub or GitLab repository.
-2. In DigitalOcean, go to **Apps** and choose **Create App**.
-3. Connect the repository and select this project.
-4. Add a **Static Site** component.
-5. Use these settings:
-   - **Source directory**: `/`
+### Option A — Static Site (recommended)
+
+1. Push this repo to GitHub or GitLab.
+2. In DigitalOcean: **Apps** → **Create App** → connect the repo.
+3. If you see **No components detected**, continue anyway: use **Add resource** (or **Edit** in the resources step) → **Static Site**.
+4. Configure the static site:
+   - **Source directory**: `/` (repo root)
    - **Build command**: leave empty
    - **Output directory**: `public`
-6. Deploy the app and open the generated `*.ondigitalocean.app` URL.
-7. To add a custom domain, use the App Platform **Settings > Domains** flow and follow DigitalOcean's DNS instructions.
+5. Deploy, then open the `*.ondigitalocean.app` URL. Custom domains: **Settings → Domains** and follow DNS instructions.
 
-You can also deploy with `doctl` using `.do/app.yaml` after connecting the Git repository details in DigitalOcean or editing the spec for your Git provider.
+### Option B — App spec (`.do/app.yaml`)
+
+If the create flow offers **autodetect from app spec** or **import spec**, point it at `.do/app.yaml` in this repo so the static site is defined without relying on autodetection.
+
+### Option C — Dockerfile (autodetect)
+
+A root `Dockerfile` copies `public/` into nginx so the wizard can detect a **Docker**/`Dockerfile` component. That runs as a small container instead of the “Static Site” resource type; use Option A if you specifically want a static-site component.
+
+You can also deploy with `doctl` using `.do/app.yaml` after wiring your Git remote and any registry settings DigitalOcean requires.
 
 ## Contact
 
