@@ -1,0 +1,10 @@
+name: nsy-llc
+region: nyc
+static_sites:
+  - name: nsy-llc-website
+    environment_slug: html
+    source_dir: /
+    output_dir: public
+    index_document: index.html
+    routes:
+      - path: /

@@ -1,0 +1,68 @@
+<svg width="760" height="620" viewBox="0 0 760 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NSY LLC abstract brand banner</title>
+  <desc id="desc">Layered navy, gold, and blue geometric shapes representing connected marketing, management, and digital work.</desc>
+  <defs>
+    <radialGradient id="glowGold" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(206 140) rotate(54) scale(410 365)">
+      <stop stop-color="#F2D987" stop-opacity=".55"/>
+      <stop offset=".56" stop-color="#D6B25E" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#D6B25E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBlue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(565 438) rotate(132) scale(360 330)">
+      <stop stop-color="#69A8FF" stop-opacity=".46"/>
+      <stop offset=".62" stop-color="#69A8FF" stop-opacity=".11"/>
+      <stop offset="1" stop-color="#69A8FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="120" y1="30" x2="640" y2="590" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#20314A"/>
+      <stop offset=".5" stop-color="#101F31"/>
+      <stop offset="1" stop-color="#0B1421"/>
+    </linearGradient>
+    <linearGradient id="line" x1="160" y1="105" x2="596" y2="476" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2D987"/>
+      <stop offset=".55" stop-color="#EEF4EC"/>
+      <stop offset="1" stop-color="#69A8FF"/>
+    </linearGradient>
+    <filter id="softShadow" x="30" y="7" width="704" height="596" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="24"/>
+      <feGaussianBlur stdDeviation="34"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.42 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1" result="shape"/>
+    </filter>
+    <clipPath id="clip">
+      <rect x="84" y="54" width="592" height="492" rx="42"/>
+    </clipPath>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <rect x="84" y="54" width="592" height="492" rx="42" fill="url(#panel)" stroke="#EEF4EC" stroke-opacity=".14"/>
+    <g clip-path="url(#clip)">
+      <rect x="84" y="54" width="592" height="492" fill="url(#glowGold)"/>
+      <rect x="84" y="54" width="592" height="492" fill="url(#glowBlue)"/>
+      <path d="M88 404C184 338 259 335 351 390C450 449 523 451 676 342" stroke="#EEF4EC" stroke-opacity=".12" stroke-width="86"/>
+      <path d="M104 411C199 348 265 345 351 397C447 455 530 458 676 356" stroke="url(#line)" stroke-width="3"/>
+      <path d="M184 166H578" stroke="#EEF4EC" stroke-opacity=".12"/>
+      <path d="M184 272H578" stroke="#EEF4EC" stroke-opacity=".12"/>
+      <path d="M184 378H578" stroke="#EEF4EC" stroke-opacity=".12"/>
+      <path d="M255 95V506" stroke="#EEF4EC" stroke-opacity=".08"/>
+      <path d="M381 95V506" stroke="#EEF4EC" stroke-opacity=".08"/>
+      <path d="M506 95V506" stroke="#EEF4EC" stroke-opacity=".08"/>
+
+      <circle cx="214" cy="392" r="54" fill="#D6B25E" fill-opacity=".13" stroke="#F2D987" stroke-opacity=".7"/>
+      <circle cx="382" cy="414" r="78" fill="#EEF4EC" fill-opacity=".05" stroke="#EEF4EC" stroke-opacity=".2"/>
+      <circle cx="546" cy="354" r="58" fill="#69A8FF" fill-opacity=".12" stroke="#69A8FF" stroke-opacity=".58"/>
+      <rect x="174" y="128" width="192" height="104" rx="26" fill="#EEF4EC" fill-opacity=".075" stroke="#EEF4EC" stroke-opacity=".16"/>
+      <rect x="396" y="187" width="178" height="104" rx="26" fill="#EEF4EC" fill-opacity=".055" stroke="#F2D987" stroke-opacity=".22"/>
+      <rect x="250" y="274" width="196" height="106" rx="26" fill="#EEF4EC" fill-opacity=".055" stroke="#69A8FF" stroke-opacity=".22"/>
+      <path d="M204 178H321" stroke="#F2D987" stroke-width="5" stroke-linecap="round"/>
+      <path d="M204 199H286" stroke="#EEF4EC" stroke-opacity=".55" stroke-width="5" stroke-linecap="round"/>
+      <path d="M426 238H544" stroke="#EEF4EC" stroke-opacity=".72" stroke-width="5" stroke-linecap="round"/>
+      <path d="M426 260H503" stroke="#F2D987" stroke-opacity=".7" stroke-width="5" stroke-linecap="round"/>
+      <path d="M280 329H401" stroke="#69A8FF" stroke-width="5" stroke-linecap="round"/>
+      <path d="M280 350H358" stroke="#EEF4EC" stroke-opacity=".55" stroke-width="5" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

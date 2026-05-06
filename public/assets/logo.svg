@@ -1,0 +1,14 @@
+<svg width="168" height="44" viewBox="0 0 168 44" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NSY LLC logo</title>
+  <desc id="desc">A geometric NSY LLC wordmark with a gold monogram symbol.</desc>
+  <defs>
+    <linearGradient id="gold" x1="7" y1="5" x2="40" y2="38" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2D987"/>
+      <stop offset="1" stop-color="#D6B25E"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="42" height="42" rx="13" fill="#0D1725" stroke="rgba(242,217,135,.42)" stroke-width="2"/>
+  <path d="M11 31V13h5.1l11.8 18H23L11 13h4.9v18H11Z" fill="url(#gold)"/>
+  <path d="M24.8 31 17 13h5.1l4.6 11.7L31.3 13h5L28.6 31h-3.8Z" fill="url(#gold)"/>
+  <text x="56" y="27" fill="#EEF4EC" font-family="Manrope, Avenir Next, sans-serif" font-size="20" font-weight="800" letter-spacing="2.2">NSY LLC</text>
+</svg>

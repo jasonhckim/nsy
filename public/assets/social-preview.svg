@@ -1,0 +1,24 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="gold" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(190 92) rotate(35) scale(580 430)">
+      <stop stop-color="#F2D987" stop-opacity=".42"/>
+      <stop offset=".66" stop-color="#D6B25E" stop-opacity=".09"/>
+      <stop offset="1" stop-color="#D6B25E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(920 485) rotate(132) scale(520 360)">
+      <stop stop-color="#69A8FF" stop-opacity=".36"/>
+      <stop offset=".7" stop-color="#69A8FF" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#69A8FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0D1725"/>
+  <rect width="1200" height="630" fill="url(#gold)"/>
+  <rect width="1200" height="630" fill="url(#blue)"/>
+  <path d="M64 470C230 356 364 346 518 440C676 537 831 518 1132 330" stroke="#EEF4EC" stroke-opacity=".1" stroke-width="120"/>
+  <path d="M90 474C252 371 367 360 520 451C679 545 831 524 1110 350" stroke="#F2D987" stroke-width="4" stroke-linecap="round"/>
+  <rect x="84" y="84" width="1032" height="462" rx="44" stroke="#EEF4EC" stroke-opacity=".14"/>
+  <text x="118" y="220" fill="#F2D987" font-family="Manrope, Avenir Next, sans-serif" font-size="28" font-weight="800" letter-spacing="6">MARKETING  MANAGEMENT  APPS &amp; WEBSITES</text>
+  <text x="116" y="335" fill="#EEF4EC" font-family="Georgia, serif" font-size="122" font-weight="700" letter-spacing="-7">NSY LLC</text>
+  <text x="124" y="405" fill="#A9B6B0" font-family="Manrope, Avenir Next, sans-serif" font-size="34" font-weight="500">Clear direction for the work that moves a business forward.</text>
+  <text x="124" y="480" fill="#EEF4EC" font-family="Manrope, Avenir Next, sans-serif" font-size="28" font-weight="700">hello@nsyllc.com</text>
+</svg>
