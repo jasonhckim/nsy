@@ -1,0 +1,5 @@
+# https://nsyllc.com/
+User-agent: *
+Allow: /
+
+Sitemap: https://nsyllc.com/sitemap.xml
